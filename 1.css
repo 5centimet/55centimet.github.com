@@ -1,0 +1,127 @@
+style.css
+*{ margin: 0; padding: 0; }
+
+.menu {
+    background: var(--main);
+    width: 15%;
+}
+
+li.chuanghira {
+    list-style: none;
+    margin-left: 16px;
+}
+
+li.chuanghira i {
+    margin-right: 8px;
+}
+
+.icon4 i {
+    font-size: 40px;
+    color: var(--gr);
+    margin-right: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon4 i:hover {
+    color: var(--main);
+}
+
+.thoigian {
+    color: var(--main);
+}
+
+p.mota {
+    margin-top: 24px;
+}
+
+.tieudeto {
+    font-weight: 700;
+}
+
+.tieude2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 48px 0;
+}
+
+.icon1 i {
+    width: 72px;
+    height: 72px;
+    font-size: 24px;
+    background: #495057;
+    text-align: center;
+    line-height: 72px;
+    color: white;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon1 i:hover {
+    background: var(--main);
+}
+
+.icon1 {
+    margin-top: 48px;
+}
+
+p, li {
+    font-family: 'Muli', sans-serif;
+}
+
+p.mota1 {
+    margin-top: 48px;
+}
+
+.link {
+    color: var(--main);
+}
+
+a.link:hover {
+    color: var(--main);
+}
+
+.tieudenho, p, li {
+    color: var(--gr);
+}
+
+p.gicungduoc {
+    font-weight: 700;
+    color: #ffffff85;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p.gicungduoc:hover {
+    color: white;
+}
+
+.tieude1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.tieude1 span {
+    color: var(--main);
+}
+
+body {
+    font-family: 'Saira Extra Condensed', sans-serif!important;
+    --main: #bd5d38!important;
+    --gr: #868e96!important;
+    padding-left: 15%;
+}
+
+img.anh {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid #ffffff50;
+}
+.active{
+    color: white!important
+}
